@@ -1,0 +1,23 @@
+.chat-section {
+  padding: 80px 0;
+}
+
+.chat-demo-box {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.chat-demo-box__inner {
+  background: var(--bg-card);
+  border: 1px solid rgba(14, 165, 233, 0.2);
+  border-radius: 16px;
+  padding: 28px 32px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.chat-demo-box__inner strong {
+  color: var(--accent);
+}
