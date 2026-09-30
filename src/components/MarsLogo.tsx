@@ -7,7 +7,7 @@ interface MarsLogoProps {
 export default function MarsLogo({ size = 'md' }: MarsLogoProps) {
   return (
     <span
-      className={`mars-logo mars-logo--${size} notranslate`}
+      className="mars-logo mars-logo--md notranslate"
       translate="no"
     >
       <span className="mars-logo__ai notranslate" translate="no">AI </span>
@@ -16,3 +16,4 @@ export default function MarsLogo({ size = 'md' }: MarsLogoProps) {
     </span>
   );
 }
+
