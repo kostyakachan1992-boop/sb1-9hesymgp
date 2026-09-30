@@ -13,4 +13,3 @@ export default function MarsLogo({ size = 'md' }: MarsLogoProps) {
     </span>
   );
 }
-
