@@ -22,7 +22,8 @@ export default function Header() {
   return (
     <header className={`header ${scrolled ? 'header--scrolled' : ''}`}>
       <div className="container header__inner">
-        <a href="#" className="header__brand">
+        <a href="#" className="header__logo notranslate" translate="no">
+
           <MarsLogo size="md" />
         </a>
 
